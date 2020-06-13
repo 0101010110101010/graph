@@ -149,7 +149,7 @@ int main()
 		scanf("%d",&cusNum);
 		for( i = 0 ;i < cusNum ;i++)
 		{
-			printf("请输入第 %d 个点:");
+			printf("请输入第 %d 个点:",i);
 			fflush(stdin);
 			scanf("%c",&point[i]);
 		}
